@@ -1,0 +1,11 @@
+[package]
+name = "minigrep_demo"
+version = "0.1.0"
+edition = "2021"
+
+# 让 lib crate 以 minigrep_lib 名字被引用（默认是包名 "30-minigrep"，连字符不合法）
+[lib]
+name = "minigrep_lib"
+path = "src/lib.rs"
+
+[dependencies]

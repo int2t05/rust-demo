@@ -1,0 +1,49 @@
+# rust-demo — Rust 系统学习代码项目
+# workspace 根配置：管理 31 个子项目，共享 Cargo.lock 与依赖解析
+# 详见 README.md
+
+[workspace]
+# resolver = "2" 是 Rust 2021 edition 起的默认依赖解析器，处理 feature flag 更准确
+resolver = "2"
+
+# members 列出所有子项目目录（相对路径）
+# 每个子项目都是独立的 binary crate，可独立 cargo run -p <name>
+members = [
+    "01-hello",
+    "02-guessing-game",
+    "03-variables",
+    "04-scalar-types",
+    "05-compound-types",
+    "06-functions",
+    "07-control-flow",
+    "08-ownership",
+    "09-references",
+    "10-slices",
+    "11-lifetimes",
+    "12-structs",
+    "13-enums",
+    "14-pattern-matching",
+    "15-collections",
+    "16-strings",
+    "17-hashmap",
+    "18-modules",
+    "19-error-handling",
+    "20-generics",
+    "21-traits",
+    "22-trait-objects",
+    "23-testing",
+    "24-closures",
+    "25-iterators",
+    "26-smart-pointers",
+    "27-concurrency",
+    "28-unsafe",
+    "29-macros",
+    "30-minigrep",
+    "31-web-server",
+]
+
+# workspace 级依赖：子项目可直接引用，避免版本不一致
+# 这里暂不放公共依赖，每个子项目按需声明
+[workspace.package]
+edition = "2021"   # Rust edition，2021 是当前主流版本
+authors = ["learner"]

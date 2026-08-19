@@ -1,0 +1,16 @@
+# Rust 编译产物
+/target/
+**/target/
+
+# Cargo.lock 对于二进制项目应该提交，但本项目作为学习用途不提交
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store

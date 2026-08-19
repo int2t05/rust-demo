@@ -1,0 +1,11 @@
+[package]
+name = "web_server_demo"
+version = "0.1.0"
+edition = "2021"
+
+# lib crate 以 web_server_lib 名字被引用
+[lib]
+name = "web_server_lib"
+path = "src/lib.rs"
+
+[dependencies]
