@@ -7,6 +7,8 @@
 | 文章 | 配套 crate | 一句话 |
 |---|---|---|
 | [01 Package-Crate-Module](./01-Package-Crate-Module) | 18-modules | mod/use/路径/文件组织/pub 可见性,一篇文章讲完 |
+| [02 路径与use](./02-路径与use) | 18-modules | 绝对/相对路径、use 与 as 重命名 |
+| [03 分离模块文件](./03-分离模块文件) | 18-modules | mod 拆分到独立文件与目录风格 |
 
 ## 练习索引
 

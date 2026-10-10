@@ -7,6 +7,9 @@
 | 文章 | 配套 crate | 一句话 |
 |---|---|---|
 | [01 线程模型](./01-线程模型) | 27-concurrency | spawn/join、move、mpsc 通道、`Arc<Mutex>`、Send/Sync 一篇打通 |
+| [02 消息传递](./02-消息传递) | 27-concurrency | mpsc 通道与所有权转移 |
+| [03 共享状态Mutex](./03-共享状态Mutex) | 27-concurrency | Mutex/Arc 组合与锁卫 |
+| [04 Send与Sync](./04-Send与Sync) | 27-concurrency | 跨线程两个标记 trait |
 
 ## 练习索引
 

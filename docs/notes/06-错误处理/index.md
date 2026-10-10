@@ -1,12 +1,14 @@
 # Error Handling(错误处理)
 
-Rust 不用异常:panic! 处理不可恢复的崩溃,`Result<T, E>` 把可恢复的失败编码进返回值,`?` 负责向上传播。本主题 1 篇文章对应 1 个 crate。
+Rust 不用异常:panic! 处理不可恢复的崩溃,`Result<T, E>` 把可恢复的失败编码进返回值,`?` 负责向上传播。本主题 3 篇文章共用 1 个 crate,从 panic 到 Result 再到 ? 传播。
 
 ## 文章索引
 
 | 文章 | 配套 crate | 一句话 |
 |---|---|---|
 | [Result 可恢复](./02-Result可恢复) | 19-error-handling | match 必须处理 Result,`?` + `From`/`Box<dyn Error>` 向上传播,unwrap/expect 是失败即 panic 的快捷方式 |
+| [01 panic不可恢复](./01-panic不可恢复) | 19-error-handling | panic!、栈展开与 abort 策略 |
+| [03 错误传播与转换](./03-错误传播与转换) | 19-error-handling | ? 运算符、From 转换、自定义错误类型 |
 
 ## 练习索引
 

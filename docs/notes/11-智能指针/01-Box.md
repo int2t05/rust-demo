@@ -72,7 +72,7 @@ drop(boxed); // 显式 drop
 
 ## 源码解读
 
-crate:`26-smart-pointers/src/main.rs`,`cargo run -p smart_pointers_demo` 可运行(MyBox 与 Droppy 定义在 main 上方)。
+crate:`26-smart-pointers/src/main.rs`,`cargo run -p smart_pointers_demo` 可运行。(MyBox 与 Droppy 定义在 main 上方)。
 
 | 小节 | 演示什么 | 关键行 |
 |---|---|---|

@@ -7,6 +7,9 @@
 | 文章 | 配套 crate | 一句话 |
 |---|---|---|
 | [01 Box](./01-Box) | 26-smart-pointers | Box/Rc/Arc/RefCell/Deref/Drop 全景,按「所有者、可变性、线程」三问选指针 |
+| [02 Rc与Arc](./02-Rc与Arc) | 26-smart-pointers | 单线程/多线程共享所有权 |
+| [03 RefCell内部可变性](./03-RefCell内部可变性) | 26-smart-pointers | 运行时借用检查与借用守卫 |
+| [04 Deref与Drop](./04-Deref与Drop) | 26-smart-pointers | 解引用强制转换与自动清理 |
 
 ## 练习索引
 

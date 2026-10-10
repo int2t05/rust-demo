@@ -645,7 +645,120 @@ const entries: Record<string, TermEntry> = {
     ipa: '/ˈɡreɪsfl ˈʃʌtdaʊn/',
     def: '退出前发终止消息让每个 worker 跑完当前任务并 join,而非直接杀线程。',
   },
+
+  // ---- 补篇(环境/模块/错误/测试/指针/并发/高级/发布) ----
+  toolchain: {
+    zh: '工具链',
+    ipa: '/ˈtuːltʃeɪn/',
+    def: '配套使用的编译器、标准库与辅助工具的集合;含 rustc、cargo、rustfmt、clippy,分 stable/beta/nightly 三个通道。',
+  },
+  linker: {
+    zh: '链接器',
+    ipa: '/ˈlɪŋkər/',
+    def: '把编译产生的目标文件与库拼装成可执行文件的程序;Windows 上 MSVC 工具链使用 link.exe。',
+  },
+  path: {
+    zh: '路径',
+    ipa: '/pɑːθ/',
+    def: '在模块树中定位某个项的地址,用 :: 分隔;从 crate 根起是绝对路径,从当前模块起是相对路径。',
+  },
+  're-export': {
+    zh: '重导出',
+    ipa: '/ˌriːɪkˈspɔːt/',
+    def: 'pub use 把内部项以更短的外部路径再公开一次,内部结构怎么重排都不破坏调用方。',
+  },
+  'glob import': {
+    zh: '通配导入',
+    ipa: '/ɡlɒb ˈɪmpɔːt/',
+    def: 'use 路径::* 一次引入该路径下全部公开项,名字来源难追溯,仅测试模块等受控场景使用。',
+  },
+  'crate root': {
+    zh: 'crate 根',
+    ipa: '/kreɪt ruːt/',
+    def: 'src/main.rs 或 src/lib.rs,模块树的最顶层节点,mod 声明从这里向下生长。',
+  },
+  visibility: {
+    zh: '可见性',
+    ipa: '/ˌvɪzəˈbɪləti/',
+    def: '一项代码允许被谁访问的范围:默认私有,pub 与其变体逐级放开。',
+  },
+  'stack unwinding': {
+    zh: '栈展开',
+    ipa: '/stæk ʌnˈwaɪndɪŋ/',
+    def: 'panic 后逐层退出调用栈并沿途清理数据的过程,可用 panic = "abort" 改为直接终止。',
+  },
+  'type erasure': {
+    zh: '类型擦除',
+    ipa: '/taɪp ɪˈreɪʒən/',
+    def: 'Box<dyn Error> 丢弃具体错误类型只保留 Error 行为,调用方不关心错误到底是什么。',
+  },
+  'assertion macro': {
+    zh: '断言宏',
+    ipa: '/əˈsɜːʃn ˈmækroʊ/',
+    def: 'assert!/assert_eq!/assert_ne! 三个测试断言宏,失败时打印两侧表达式的值。',
+  },
+  'conditional compilation': {
+    zh: '条件编译',
+    ipa: '/kənˈdɪʃənl ˌkɒmpɪˈleɪʃn/',
+    def: '#[cfg(test)] 让测试代码只在 cargo test 时编译进测试二进制,正常构建不含它。',
+  },
+  'black-box testing': {
+    zh: '黑盒测试',
+    ipa: '/blæk bɒks ˈtestɪŋ/',
+    def: '集成测试只调用库的公开 API,从使用者视角验证行为,不看内部实现。',
+  },
+  Weak: {
+    zh: '弱引用',
+    ipa: '/wiːk/',
+    def: 'Rc 的不计数版本:不阻止释放,用 upgrade() 尝试取值,用于打破循环引用。',
+  },
+  MutexGuard: {
+    zh: '锁卫',
+    ipa: '/ˈmjuːteks ɡɑːrd/',
+    def: 'Mutex::lock() 返回的智能指针,Deref 到内部数据,离开作用域自动解锁。',
+  },
+  'marker trait': {
+    zh: '标记 trait',
+    ipa: '/ˈmɑːrkər treɪt/',
+    def: '没有任何方法的 trait,只用类型系统声明一种能力,如 Send、Sync。',
+  },
+  'auto trait': {
+    zh: '自动推导 trait',
+    ipa: '/ˈɔːtoʊ treɪt/',
+    def: '编译器按成员自动实现的 trait,Send/Sync 由字段类型逐层推导,无需手写。',
+  },
+  'associated type': {
+    zh: '关联类型',
+    ipa: '/əˈsoʊʃieɪtɪd taɪp/',
+    def: 'trait 内的 type 占位符,实现方指定一次,使用处不再写泛型参数,如 Iterator 的 Item。',
+  },
+  supertrait: {
+    zh: '超 trait',
+    ipa: '/ˈsuːpər treɪt/',
+    def: 'trait A: B 要求实现 A 的类型必须也实现 B,如 OutlinePrint: Display。',
+  },
+  'fully qualified syntax': {
+    zh: '全限定语法',
+    ipa: '/ˈfʊli ˈkwɒlɪfaɪd ˈsɪntæks/',
+    def: '<Type as Trait>::method() 消除多 trait 同名方法的歧义。',
+  },
+  yank: {
+    zh: '作废',
+    ipa: '/jæŋk/',
+    def: 'cargo yank 把已发布版本标记为不可再依赖,已锁定它的项目不受影响,版本不可删除。',
+  },
+  'dry-run': {
+    zh: '发布演练',
+    ipa: '/draɪ rʌn/',
+    def: 'cargo publish --dry-run / cargo package 完整打包但不上传,发布前查漏。',
+  },
+  SPDX: {
+    zh: '许可证标识符',
+    ipa: '/ˈɛs piː diː ɛks/',
+    def: 'license 字段用的标准标识符,如 MIT、Apache-2.0,必须写 SPDX 格式才能发布。',
+  },
 }
+
 
 // 中文别名 → 英文 key,共享同一条目
 const aliases: Record<string, string> = {

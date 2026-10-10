@@ -7,7 +7,9 @@ unsafe 放行编译器静态验证不了的五类底层操作,宏在编译期按
 | 文章 | 配套 crate | 一句话 |
 |---|---|---|
 | [01 Unsafe Rust](./01-Unsafe-Rust) | 28-unsafe | 五类 unsafe 操作、借用检查不关闭、安全 API 封装 |
+| [02 高级Trait](./02-高级Trait) | — | 关联类型、supertrait、全限定语法 |
 | [03 宏](./03-宏) | 29-macros | macro_rules!、片段说明符、重复与递归、生成结构体 |
+| [04 类型转换与Deref](./04-类型转换与Deref) | 26-smart-pointers | From/Into/AsRef 与 Deref |
 
 ## 练习索引
 

@@ -92,7 +92,7 @@ fn main() {
     });
 
     // 接收所有消息（直到所有发送端关闭）
-    // 用 rx.try_iter 收集所有当前可用的
+    // 用 rx.iter() 收集所有当前可用的
     drop(h1.join().unwrap());
     drop(h2.join().unwrap());
     let collected: Vec<(&str, i32)> = rx.iter().collect();

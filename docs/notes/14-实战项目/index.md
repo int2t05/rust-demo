@@ -8,6 +8,7 @@
 |---|---|---|
 | [01 Cli工具minigrep](./01-Cli工具minigrep) | 30-minigrep | 命令行参数、文件 I/O、错误处理、生命周期、迭代器落地成 CLI,lib 承载逻辑、main 做薄壳 |
 | [02 多线程Web服务器](./02-多线程Web服务器) | 31-web-server | TcpListener 加自建线程池:channel 任务队列、Arc/Mutex 共享接收端、trait 对象任务、Drop 优雅关闭 |
+| [03 发布到Crates-io](./03-发布到Crates-io) | — | 清单字段、publish 与 yank |
 
 ## 练习索引
 

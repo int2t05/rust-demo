@@ -32,6 +32,7 @@ export default withMermaid(
       sidebar: {
         '/notes/': [
           section('01 入门基础', '/notes/01-入门基础', [
+            ['01 环境搭建', '01-环境搭建'],
             ['02 Hello Cargo', '02-Hello-Cargo'],
             ['03 猜数字游戏', '03-猜数字游戏'],
           ]),
@@ -57,9 +58,13 @@ export default withMermaid(
           ]),
           section('05 模块与组织', '/notes/05-模块与组织', [
             ['01 Package-Crate-Module', '01-Package-Crate-Module'],
+            ['02 路径与use', '02-路径与use'],
+            ['03 分离模块文件', '03-分离模块文件'],
           ]),
           section('06 错误处理', '/notes/06-错误处理', [
+            ['01 panic不可恢复', '01-panic不可恢复'],
             ['02 Result可恢复', '02-Result可恢复'],
+            ['03 错误传播与转换', '03-错误传播与转换'],
           ]),
           section('07 泛型Trait生命周期', '/notes/07-泛型Trait生命周期', [
             ['01 泛型', '01-泛型'],
@@ -68,25 +73,37 @@ export default withMermaid(
             ['04 生命周期标注', '04-生命周期标注'],
           ]),
           section('08 测试', '/notes/08-测试', [
+            ['01 单元测试', '01-单元测试'],
+            ['02 集成测试', '02-集成测试'],
             ['03 测试组织与文档测试', '03-测试组织与文档测试'],
           ]),
           section('09 函数式特性', '/notes/09-函数式特性', [
             ['01 闭包', '01-闭包'],
             ['02 迭代器', '02-迭代器'],
+            ['03 改进CLI项目', '03-改进CLI项目'],
           ]),
           section('11 智能指针', '/notes/11-智能指针', [
             ['01 Box', '01-Box'],
+            ['02 Rc与Arc', '02-Rc与Arc'],
+            ['03 RefCell内部可变性', '03-RefCell内部可变性'],
+            ['04 Deref与Drop', '04-Deref与Drop'],
           ]),
           section('12 并发编程', '/notes/12-并发编程', [
             ['01 线程模型', '01-线程模型'],
+            ['02 消息传递', '02-消息传递'],
+            ['03 共享状态Mutex', '03-共享状态Mutex'],
+            ['04 Send与Sync', '04-Send与Sync'],
           ]),
           section('13 高级特性', '/notes/13-高级特性', [
             ['01 Unsafe Rust', '01-Unsafe-Rust'],
+            ['02 高级Trait', '02-高级Trait'],
             ['03 宏', '03-宏'],
+            ['04 类型转换与Deref', '04-类型转换与Deref'],
           ]),
           section('14 实战项目', '/notes/14-实战项目', [
             ['01 Cli工具minigrep', '01-Cli工具minigrep'],
             ['02 多线程Web服务器', '02-多线程Web服务器'],
+            ['03 发布到Crates-io', '03-发布到Crates-io'],
           ]),
         ],
       },
