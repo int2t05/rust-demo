@@ -69,8 +69,7 @@ rust-demo/
 
 ## 配套教程
 
-- wiki（在线维护版）：<https://int2t05.github.io/rust-demo/>，源文件在 `docs/notes/`
-- 本地笔记：`D:\Myknows\Myknows\原理\Rust\`，每个主题一个文件夹，与 wiki 双向同步
+- wiki（在线版）：<https://int2t05.github.io/rust-demo/>，源文件在 `docs/notes/`
 
 ## 环境信息
 

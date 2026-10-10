@@ -102,4 +102,3 @@ crate:`16-strings/src/main.rs`,`cargo run -p strings_demo` 可运行。
 
 - [The Rust Book ch8.2 Storing UTF-8 Encoded Text with Strings](https://doc.rust-lang.org/book/ch08-02-strings.html)
 - [Rust By Example - str](https://doc.rust-lang.org/stable/rust-by-example/std/str.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\04-数据结构\05-String字符串.md`(与本文持续同步)

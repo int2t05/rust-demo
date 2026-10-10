@@ -98,4 +98,3 @@ crate:`28-unsafe/src/main.rs`,`cargo run -p unsafe_demo` 可运行。
 
 - [The Rust Book ch20.1 Unsafe Rust](https://doc.rust-lang.org/book/ch20-01-unsafe-rust.html)
 - [Rust By Example - Unsafe](https://doc.rust-lang.org/stable/rust-by-example/unsafe.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\13-高级特性\01-Unsafe-Rust.md`(与本文持续同步)

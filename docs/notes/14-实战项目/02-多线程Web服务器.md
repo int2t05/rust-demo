@@ -130,4 +130,3 @@ crate:`31-web-server/src/lib.rs` 与 `31-web-server/src/main.rs`,`cargo run -p w
 
 - [The Rust Book ch21 Final Project: A Web Server](https://doc.rust-lang.org/book/ch21-00-final-project-a-web-server.html)
 - [Rust By Example - Box](https://doc.rust-lang.org/stable/rust-by-example/std/box.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\14-实战项目\02-多线程Web服务器.md`(与本文持续同步)

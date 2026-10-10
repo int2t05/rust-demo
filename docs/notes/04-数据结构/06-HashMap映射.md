@@ -90,4 +90,3 @@ crate:`17-hashmap/src/main.rs`,`cargo run -p hashmap_demo` 可运行。
 
 - [The Rust Book ch8.3 Storing Keys with Associated Values in Hash Maps](https://doc.rust-lang.org/book/ch08-03-hash-maps.html)
 - [Rust By Example - HashMap](https://doc.rust-lang.org/stable/rust-by-example/std/hash.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\04-数据结构\06-HashMap映射.md`(与本文持续同步)

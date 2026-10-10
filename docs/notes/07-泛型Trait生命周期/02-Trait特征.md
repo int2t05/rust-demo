@@ -136,4 +136,3 @@ crate:`21-traits/src/main.rs`,`cargo run -p traits_demo` 可运行。
 - [The Rust Book ch10.2 Traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
 - [Rust By Example - Traits](https://doc.rust-lang.org/stable/rust-by-example/trait.html)
 - [Rust By Example - where](https://doc.rust-lang.org/stable/rust-by-example/generics/where.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\07-泛型Trait生命周期\02-Trait特征.md`(与本文持续同步)

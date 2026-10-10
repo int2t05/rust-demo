@@ -108,4 +108,3 @@ crate:`22-trait-objects/src/main.rs`,`cargo run -p trait_objects_demo` 可运行
 ## 参考资料
 
 - [The Rust Book ch18.2 Trait Objects](https://doc.rust-lang.org/book/ch18-02-trait-objects.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\07-泛型Trait生命周期\03-Trait对象.md`(与本文持续同步)

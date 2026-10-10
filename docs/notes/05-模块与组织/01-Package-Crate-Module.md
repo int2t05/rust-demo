@@ -147,4 +147,3 @@ crate:`18-modules/src/main.rs`,`cargo run -p modules_demo` 可运行。
 - [The Rust Book ch7.3 Paths](https://doc.rust-lang.org/book/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html)
 - [The Rust Book ch7.4 use](https://doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html)
 - [The Rust Book ch7.5 Separating Modules into Different Files](https://doc.rust-lang.org/book/ch07-05-separating-modules-into-different-files.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\05-模块与组织\01-Package-Crate-Module.md`(与本文持续同步)

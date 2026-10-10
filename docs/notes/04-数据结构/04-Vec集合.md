@@ -97,4 +97,3 @@ crate:`15-collections/src/main.rs`,`cargo run -p collections_demo` 可运行。
 
 - [The Rust Book ch8.1 Storing Lists of Values with Vectors](https://doc.rust-lang.org/book/ch08-01-vectors.html)
 - [Rust By Example - Vectors](https://doc.rust-lang.org/stable/rust-by-example/std/vec.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\04-数据结构\04-Vec集合.md`(与本文持续同步)

@@ -125,4 +125,3 @@ crate:`19-error-handling/src/main.rs`,`cargo run -p error_handling_demo` 可运�
 - [The Rust Book ch9.3 To panic! or Not to panic!](https://doc.rust-lang.org/book/ch09-03-to-panic-or-not-to-panic.html)
 - [Rust By Example - panic!](https://doc.rust-lang.org/stable/rust-by-example/error/panic.html)
 - [Rust By Example - Result](https://doc.rust-lang.org/stable/rust-by-example/error/result.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\06-错误处理\02-Result可恢复.md`(与本文持续同步)

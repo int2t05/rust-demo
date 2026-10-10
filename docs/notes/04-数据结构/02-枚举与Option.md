@@ -93,4 +93,3 @@ crate:`13-enums/src/main.rs`,`cargo run -p enums_demo` 可运行。
 - [The Rust Book ch6 Enums](https://doc.rust-lang.org/book/ch06-00-enums.html)
 - [The Rust Book ch6.1 Defining an Enum](https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html)
 - [Rust By Example - Option](https://doc.rust-lang.org/stable/rust-by-example/std/option.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\04-数据结构\02-枚举与Option.md`(与本文持续同步)

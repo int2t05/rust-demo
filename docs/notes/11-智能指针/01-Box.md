@@ -119,4 +119,3 @@ crate:`26-smart-pointers/src/main.rs`,`cargo run -p smart_pointers_demo` 可运�
 - [The Rust Book ch15.2 Deref](https://doc.rust-lang.org/book/ch15-02-deref.html)
 - [The Rust Book ch15.3 Drop](https://doc.rust-lang.org/book/ch15-03-drop.html)
 - [Rust By Example - Arc](https://doc.rust-lang.org/stable/rust-by-example/std/arc.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\11-智能指针\01-Box.md`(与本文持续同步)

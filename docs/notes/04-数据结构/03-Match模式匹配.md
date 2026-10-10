@@ -108,4 +108,3 @@ crate:`14-pattern-matching/src/main.rs`,`cargo run -p pattern_matching_demo` 可
 - [The Rust Book ch6.2 The match Control Flow Construct](https://doc.rust-lang.org/book/ch06-02-match.html)
 - [The Rust Book ch6.3 if let](https://doc.rust-lang.org/book/ch06-03-if-let.html)
 - [Rust By Example - match](https://doc.rust-lang.org/stable/rust-by-example/flow_control/match.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\04-数据结构\03-Match模式匹配.md`(与本文持续同步)

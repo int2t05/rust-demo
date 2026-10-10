@@ -112,4 +112,3 @@ crate:`01-hello/src/main.rs`,`cargo run -p hello_demo` 可运行。
 - [The Rust Book ch1.2 Hello, World!](https://doc.rust-lang.org/book/ch01-02-hello-world.html)
 - [The Rust Book ch1.3 Hello, Cargo!](https://doc.rust-lang.org/book/ch01-03-hello-cargo.html)
 - [std::fmt 格式化文档](https://doc.rust-lang.org/std/fmt/)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\01-入门基础\02-Hello-Cargo.md`(与本文持续同步)

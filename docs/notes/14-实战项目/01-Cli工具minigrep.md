@@ -113,4 +113,3 @@ crate:`30-minigrep/src/lib.rs` 与 `30-minigrep/src/main.rs`,`cargo run -p minig
 ## 参考资料
 
 - [Rust By Example - Result](https://doc.rust-lang.org/stable/rust-by-example/error/result.html)
-- 本地旧笔记:`D:\Myknows\Myknows\原理\Rust\14-实战项目\01-Cli工具minigrep.md`(与本文持续同步)
