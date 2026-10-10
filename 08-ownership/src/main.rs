@@ -8,8 +8,8 @@
 // 4. Copy trait：i32 等简单类型赋值时复制而非移动
 // 5. 函数返回值也能转移所有权
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\08-Ownership\01-所有权.md
-// 运行方式：cargo run -p 08-ownership
+// 对应教程：docs/notes/03-所有权系统/01-所有权规则.md
+// 运行方式：cargo run -p ownership_demo
 // ============================================================
 
 fn main() {

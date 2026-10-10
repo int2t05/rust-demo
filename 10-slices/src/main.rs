@@ -9,8 +9,8 @@
 // 5. 切片不持有所有权，只是借用视图
 // 6. 函数参数用 &str 比 &String 更通用
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\08-Ownership\03-切片.md
-// 运行方式：cargo run -p 10-slices
+// 对应教程：docs/notes/03-所有权系统/03-切片类型.md
+// 运行方式：cargo run -p slices_demo
 // ============================================================
 
 fn main() {

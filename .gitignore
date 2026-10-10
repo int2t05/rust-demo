@@ -14,3 +14,8 @@ Cargo.lock
 # OS
 Thumbs.db
 .DS_Store
+
+# 文档站（Node 工具链）
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/

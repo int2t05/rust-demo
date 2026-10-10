@@ -11,9 +11,9 @@ cargo build --workspace
 # 运行测试
 cargo test --workspace
 
-# 运行某个子项目
-cargo run -p 01-hello
-cargo run -p 02-guessing-game
+# 运行某个子项目（-p 用 Cargo.toml 里的包名，如 hello_demo）
+cargo run -p hello_demo
+cargo run -p guessing_game
 ```
 
 ## 学习路径（31 个子项目）
@@ -59,6 +59,9 @@ rust-demo/
 ├── Cargo.toml          # workspace 根
 ├── README.md           # 本文件
 ├── .gitignore
+├── package.json        # wiki 文档站工具链(npm run docs:dev / docs:build)
+├── .github/workflows/  # GH Pages 部署
+├── docs/               # VitePress wiki,notes/ 下每主题一个文件夹
 └── 01-hello/           # 每个子项目结构相同
     ├── Cargo.toml
     └── src/main.rs
@@ -66,10 +69,11 @@ rust-demo/
 
 ## 配套教程
 
-教程文档位于 `D:\Obsidians\Myknows\原理\Rust\`，每个主题一个文件夹。
+- wiki（在线维护版）：<https://int2t05.github.io/rust-demo/>，源文件在 `docs/notes/`
+- 本地笔记：`D:\Myknows\Myknows\原理\Rust\`，每个主题一个文件夹，与 wiki 双向同步
 
 ## 环境信息
 
-- Rust 安装路径：`D:\developtools\rust\`（rustup + cargo 两个子目录）
+- Rust：rustup 默认安装（`%USERPROFILE%\.cargo` + `%USERPROFILE%\.rustup`），stable 工具链
 - 工具链：stable
 - edition：2021

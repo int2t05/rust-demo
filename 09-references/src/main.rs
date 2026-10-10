@@ -7,8 +7,8 @@
 // 3. 不可变引用与可变引用不能同时存在
 // 4. 引用必须始终有效，悬垂引用会被编译器拒绝
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\08-Ownership\02-引用与借用.md
-// 运行方式：cargo run -p 09-references
+// 对应教程：docs/notes/03-所有权系统/02-引用与借用.md
+// 运行方式：cargo run -p references_demo
 // ============================================================
 
 fn main() {
