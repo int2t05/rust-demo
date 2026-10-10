@@ -12,8 +12,8 @@
 // 8. where 子句
 // 9. 实现 trait 的 trait
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\18-泛型与Trait\02-Trait.md
-// 运行方式：cargo run -p 21-traits
+// 对应教程：docs/notes/07-泛型Trait生命周期/02-Trait特征.md
+// 运行方式：cargo run -p traits_demo
 // ============================================================
 
 use std::fmt::{Debug, Display};

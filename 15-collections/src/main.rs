@@ -9,8 +9,8 @@
 // 5. 用 enum 在 Vec 中储存不同类型
 // 6. 容量 capacity() 与长度 len()
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\15-集合\01-Vec.md
-// 运行方式：cargo run -p 15-collections
+// 对应教程：docs/notes/04-数据结构/04-Vec集合.md
+// 运行方式：cargo run -p collections_demo
 // ============================================================
 
 use std::collections::VecDeque;

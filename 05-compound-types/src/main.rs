@@ -8,8 +8,8 @@
 // 4. 数组越界 panic
 // 5. 数组遍历与 len()
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\02-基础\03-compound-types.md
-// 运行方式：cargo run -p 05-compound-types
+// 对应教程：docs/notes/02-核心语法/03-复合类型.md
+// 运行方式：cargo run -p compound_types_demo
 // ============================================================
 
 fn main() {

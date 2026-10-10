@@ -9,8 +9,8 @@
 // 5. char Unicode 字符（4 字节）
 // 6. 整数溢出行为
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\02-基础\02-scalar-types.md
-// 运行方式：cargo run -p 04-scalar-types
+// 对应教程：docs/notes/02-核心语法/02-标量类型.md
+// 运行方式：cargo run -p scalar_types_demo
 // ============================================================
 
 fn main() {

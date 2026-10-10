@@ -11,7 +11,7 @@
 // 7. Send / Sync 标记 trait
 // 8. 简单线程池概念
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\12-并发编程\01-线程.md
+// 对应教程：docs/notes/12-并发编程/01-线程模型.md
 // 运行方式：cargo run -p concurrency_demo
 // ============================================================
 

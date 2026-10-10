@@ -11,7 +11,7 @@
 // 7. pub(crate) / pub(super)
 // 8. 在 main.rs 里用 mod 引入子模块
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\16-模块\01-模块系统.md
+// 对应教程：docs/notes/05-模块与组织/01-Package-Crate-Module.md
 // 运行方式：cargo run -p modules_demo
 // ============================================================
 

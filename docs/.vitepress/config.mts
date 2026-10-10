@@ -3,6 +3,15 @@ import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import { termWrap } from './theme/term-plugin'
 
+const section = (
+  text: string,
+  link: string,
+  items: Array<[string, string]>,
+) => ({
+  text,
+  items: [{ text: '总览', link: `${link}/` }, ...items.map(([t, l]) => ({ text: t, link: `${link}/${l}` }))],
+})
+
 export default withMermaid(
   defineConfig({
     lang: 'zh-CN',
@@ -21,15 +30,63 @@ export default withMermaid(
       ],
       sidebar: {
         '/notes/': [
-          {
-            text: '03 所有权系统',
-            items: [
-              { text: '总览', link: '/notes/03-所有权系统/' },
-              { text: '01 所有权规则', link: '/notes/03-所有权系统/01-所有权规则' },
-              { text: '02 引用与借用', link: '/notes/03-所有权系统/02-引用与借用' },
-              { text: '03 切片类型', link: '/notes/03-所有权系统/03-切片类型' },
-            ],
-          },
+          section('01 入门基础', '/notes/01-入门基础', [
+            ['02 Hello Cargo', '/notes/01-入门基础/02-Hello-Cargo'],
+            ['03 猜数字游戏', '/notes/01-入门基础/03-猜数字游戏'],
+          ]),
+          section('02 核心语法', '/notes/02-核心语法', [
+            ['01 变量与可变性', '/notes/02-核心语法/01-变量与可变性'],
+            ['02 标量类型', '/notes/02-核心语法/02-标量类型'],
+            ['03 复合类型', '/notes/02-核心语法/03-复合类型'],
+            ['04 函数', '/notes/02-核心语法/04-函数'],
+            ['05 控制流', '/notes/02-核心语法/05-控制流'],
+          ]),
+          section('03 所有权系统', '/notes/03-所有权系统', [
+            ['01 所有权规则', '/notes/03-所有权系统/01-所有权规则'],
+            ['02 引用与借用', '/notes/03-所有权系统/02-引用与借用'],
+            ['03 切片类型', '/notes/03-所有权系统/03-切片类型'],
+          ]),
+          section('04 数据结构', '/notes/04-数据结构', [
+            ['01 结构体', '/notes/04-数据结构/01-结构体'],
+            ['02 枚举与Option', '/notes/04-数据结构/02-枚举与Option'],
+            ['03 Match模式匹配', '/notes/04-数据结构/03-Match模式匹配'],
+            ['04 Vec集合', '/notes/04-数据结构/04-Vec集合'],
+            ['05 String字符串', '/notes/04-数据结构/05-String字符串'],
+            ['06 HashMap映射', '/notes/04-数据结构/06-HashMap映射'],
+          ]),
+          section('05 模块与组织', '/notes/05-模块与组织', [
+            ['01 Package-Crate-Module', '/notes/05-模块与组织/01-Package-Crate-Module'],
+          ]),
+          section('06 错误处理', '/notes/06-错误处理', [
+            ['02 Result可恢复', '/notes/06-错误处理/02-Result可恢复'],
+          ]),
+          section('07 泛型Trait生命周期', '/notes/07-泛型Trait生命周期', [
+            ['01 泛型', '/notes/07-泛型Trait生命周期/01-泛型'],
+            ['02 Trait特征', '/notes/07-泛型Trait生命周期/02-Trait特征'],
+            ['03 Trait对象', '/notes/07-泛型Trait生命周期/03-Trait对象'],
+            ['04 生命周期标注', '/notes/07-泛型Trait生命周期/04-生命周期标注'],
+          ]),
+          section('08 测试', '/notes/08-测试', [
+            ['03 测试组织与文档测试', '/notes/08-测试/03-测试组织与文档测试'],
+          ]),
+          section('09 函数式特性', '/notes/09-函数式特性', [
+            ['01 闭包', '/notes/09-函数式特性/01-闭包'],
+            ['02 迭代器', '/notes/09-函数式特性/02-迭代器'],
+          ]),
+          section('11 智能指针', '/notes/11-智能指针', [
+            ['01 Box', '/notes/11-智能指针/01-Box'],
+          ]),
+          section('12 并发编程', '/notes/12-并发编程', [
+            ['01 线程模型', '/notes/12-并发编程/01-线程模型'],
+          ]),
+          section('13 高级特性', '/notes/13-高级特性', [
+            ['01 Unsafe Rust', '/notes/13-高级特性/01-Unsafe-Rust'],
+            ['03 宏', '/notes/13-高级特性/03-宏'],
+          ]),
+          section('14 实战项目', '/notes/14-实战项目', [
+            ['01 Cli工具minigrep', '/notes/14-实战项目/01-Cli工具minigrep'],
+            ['02 多线程Web服务器', '/notes/14-实战项目/02-多线程Web服务器'],
+          ]),
         ],
       },
       socialLinks: [{ icon: 'github', link: 'https://github.com/int2t05/rust-demo' }],

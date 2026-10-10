@@ -1,5 +1,5 @@
 // 集成测试：测试 ThreadPool 的并发行为
-// 运行：cargo test -p web-server-31
+// 运行：cargo test -p web_server_demo
 
 use web_server_lib::ThreadPool;
 use std::sync::atomic::{AtomicUsize, Ordering};

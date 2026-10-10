@@ -10,7 +10,7 @@
 // 6. Deref 强制转换
 // 7. Drop trait 析构顺序
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\11-智能指针\01-Box.md
+// 对应教程：docs/notes/11-智能指针/01-Box.md
 // 运行方式：cargo run -p smart_pointers_demo
 // ============================================================
 

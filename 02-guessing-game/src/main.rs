@@ -9,8 +9,8 @@
 // 5. match 匹配 Ordering 三分支
 // 6. loop + break 循环控制
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\01-入门\02-guessing-game.md
-// 运行方式：cargo run -p 02-guessing-game
+// 对应教程：docs/notes/01-入门基础/03-猜数字游戏.md
+// 运行方式：cargo run -p guessing_game
 // ============================================================
 
 // use 导入需要的模块

@@ -8,8 +8,8 @@
 // 4. print! vs println! vs eprintln! 的区别
 // 5. 转义字符 \t \n \\ \"
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\01-入门\01-hello.md
-// 运行方式：cargo run -p 01-hello
+// 对应教程：docs/notes/01-入门基础/02-Hello-Cargo.md
+// 运行方式：cargo run -p hello_demo
 // ============================================================
 
 fn main() {

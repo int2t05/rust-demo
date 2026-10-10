@@ -1,5 +1,5 @@
 // 集成测试：测试 minigrep_lib 的公开 API
-// 运行：cargo test -p 30-minigrep
+// 运行：cargo test -p minigrep_demo
 
 use minigrep_lib::{search, search_case_insensitive};
 

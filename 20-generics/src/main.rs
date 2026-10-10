@@ -9,8 +9,8 @@
 // 5. 泛型枚举 Option<T> / Result<T, E>
 // 6. 性能：单态化（零成本抽象）
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\18-泛型与Trait\01-泛型.md
-// 运行方式：cargo run -p 20-generics
+// 对应教程：docs/notes/07-泛型Trait生命周期/01-泛型.md
+// 运行方式：cargo run -p generics_demo
 // ============================================================
 
 /// 泛型函数：找出切片中最大的元素

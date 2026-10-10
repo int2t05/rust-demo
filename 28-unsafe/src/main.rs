@@ -10,7 +10,7 @@
 // 6. 何时该用 unsafe（FFI、性能、底层）
 // 7. unsafe 不关闭借用检查
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\13-高级特性\01-unsafe.md
+// 对应教程：docs/notes/13-高级特性/01-Unsafe-Rust.md
 // 运行方式：cargo run -p unsafe_demo
 // ============================================================
 

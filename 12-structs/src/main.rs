@@ -10,8 +10,8 @@
 // 6. 关联函数：类似构造器，用 Self:: 调用
 // 7. 多个 impl 块：Rust 允许对同一类型分散实现
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\12-Structs\01-结构体.md
-// 运行方式：cargo run -p 12-structs
+// 对应教程：docs/notes/04-数据结构/01-结构体.md
+// 运行方式：cargo run -p structs_demo
 // ============================================================
 
 // ---- 命名结构体 ----

@@ -11,8 +11,8 @@
 // 7. Box<dyn Error> 通用错误类型
 // 8. 自定义错误类型
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\17-错误处理\01-panic与Result.md
-// 运行方式：cargo run -p 19-error-handling
+// 对应教程：docs/notes/06-错误处理/02-Result可恢复.md
+// 运行方式：cargo run -p error_handling_demo
 // ============================================================
 
 use std::error::Error;

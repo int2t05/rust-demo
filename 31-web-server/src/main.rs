@@ -8,7 +8,7 @@
 // 4. HTTP 响应构造（status line + headers + body）
 // 5. 用 ThreadPool 多线程处理连接
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\14-实战项目\02-web-server.md
+// 对应教程：docs/notes/14-实战项目/02-多线程Web服务器.md
 // 运行方式：cargo run -p web_server_demo
 // 测试：浏览器访问 http://127.0.0.1:7878
 //       或 curl http://127.0.0.1:7878

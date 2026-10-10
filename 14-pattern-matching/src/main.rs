@@ -9,8 +9,8 @@
 // 5. while let：循环中匹配
 // 6. matches! 宏：布尔判定简写
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\13-Enums\02-match.md
-// 运行方式：cargo run -p 14-pattern-matching
+// 对应教程：docs/notes/04-数据结构/03-Match模式匹配.md
+// 运行方式：cargo run -p pattern_matching_demo
 // ============================================================
 
 struct User {

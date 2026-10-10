@@ -8,8 +8,8 @@
 // 4. 无返回值函数返回单元类型 ()
 // 5. 值传递与 move 语义
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\02-基础\04-functions.md
-// 运行方式：cargo run -p 06-functions
+// 对应教程：docs/notes/02-核心语法/04-函数.md
+// 运行方式：cargo run -p functions_demo
 // ============================================================
 
 // --- 函数定义 ---

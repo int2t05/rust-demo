@@ -7,8 +7,8 @@
 // 3. 命令行参数读取
 // 4. 环境变量读取
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\14-实战项目\01-minigrep.md
-// 运行方式：
+// 对应教程：docs/notes/14-实战项目/01-Cli工具minigrep.md
+// 运行方式：cargo run -p minigrep_demo
 //   cargo run -p minigrep_demo -- <query> <file>
 //   IGNORE_CASE=1 cargo run -p minigrep_demo -- to poem.txt
 //   无参数时运行内置 demo

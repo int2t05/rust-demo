@@ -5,7 +5,7 @@
 // 只能测试库的公开 API（pub 函数）
 // 通过 use testing_demo::... 引入库
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\19-测试\02-集成测试.md
+// 对应教程：docs/notes/08-测试/03-测试组织与文档测试.md
 // 运行方式：cargo test -p testing_demo
 // ============================================================
 

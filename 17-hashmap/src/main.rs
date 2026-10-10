@@ -9,8 +9,8 @@
 // 5. 更新值：覆盖、entry API、基于旧值
 // 6. 所有权：insert 会 move 走 String
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\15-集合\03-HashMap.md
-// 运行方式：cargo run -p 17-hashmap
+// 对应教程：docs/notes/04-数据结构/06-HashMap映射.md
+// 运行方式：cargo run -p hashmap_demo
 // ============================================================
 
 use std::collections::HashMap;

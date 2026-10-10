@@ -3,7 +3,7 @@
 // ============================================================
 // 调用 lib.rs 中的函数，演示实际使用
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\19-测试\01-单元测试.md
+// 对应教程：docs/notes/08-测试/03-测试组织与文档测试.md
 // 运行方式：cargo run -p testing_demo
 // ============================================================
 
@@ -32,5 +32,5 @@ fn main() {
     // 演示 word_count
     println!("word_count('hello world rust') = {}", word_count("hello world rust"));
 
-    println!("\n运行测试: cargo test -p 23-testing");
+    println!("\n运行测试: cargo test -p testing_demo");
 }

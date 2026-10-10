@@ -8,8 +8,8 @@
 // 4. Option<T>：替代 null 的安全抽象
 // 5. Option 的常用方法：is_some、is_none、unwrap、unwrap_or、map
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\13-Enums\01-枚举.md
-// 运行方式：cargo run -p 13-enums
+// 对应教程：docs/notes/04-数据结构/02-枚举与Option.md
+// 运行方式：cargo run -p enums_demo
 // ============================================================
 
 // ---- 简单枚举 ----

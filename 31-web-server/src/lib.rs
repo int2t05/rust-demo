@@ -8,7 +8,7 @@
 // 4. 优雅关闭（Drop 实现停止 worker）
 // 5. trait 对象 Box<dyn FnOnce() + Send + 'static> 作为 Job
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\14-实战项目\02-web-server.md
+// 对应教程：docs/notes/14-实战项目/02-多线程Web服务器.md
 // 运行方式：cargo run -p web_server_demo
 // ============================================================
 

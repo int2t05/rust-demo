@@ -8,8 +8,8 @@
 // 4. trait object 的对象安全限制
 // 5. 对比性能（注释说明）
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\18-泛型与Trait\03-Trait对象.md
-// 运行方式：cargo run -p 22-trait-objects
+// 对应教程：docs/notes/07-泛型Trait生命周期/03-Trait对象.md
+// 运行方式：cargo run -p trait_objects_demo
 // ============================================================
 
 /// 共同的 trait：可绘制图形

@@ -8,8 +8,8 @@
 // 4. const 编译时常量
 // 5. static 静态变量
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\02-基础\01-variables.md
-// 运行方式：cargo run -p 03-variables
+// 对应教程：docs/notes/02-核心语法/01-变量与可变性.md
+// 运行方式：cargo run -p variables_demo
 // ============================================================
 
 // const 编译时常量：

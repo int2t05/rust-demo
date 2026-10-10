@@ -10,8 +10,8 @@
 // 6. push_str / push
 // 7. 切片要小心 UTF-8 边界
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\15-集合\02-String.md
-// 运行方式：cargo run -p 16-strings
+// 对应教程：docs/notes/04-数据结构/05-String字符串.md
+// 运行方式：cargo run -p strings_demo
 // ============================================================
 
 fn main() {

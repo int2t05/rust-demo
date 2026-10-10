@@ -10,7 +10,7 @@
 // 6. 大小写不敏感搜索（环境变量开关）
 // 7. 用迭代器优化搜索
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\14-实战项目\01-minigrep.md
+// 对应教程：docs/notes/14-实战项目/01-Cli工具minigrep.md
 // 运行方式：cargo run -p minigrep_demo -- <query> <file>
 //           或运行内置 demo（无参数时）
 // ============================================================

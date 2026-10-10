@@ -10,7 +10,7 @@
 // 6. 导出 #[macro_export]
 // 7. 实用示例：vec! 简化版、自定义 println
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\13-高级特性\02-宏.md
+// 对应教程：docs/notes/13-高级特性/03-宏.md
 // 运行方式：cargo run -p macros_demo
 // ============================================================
 

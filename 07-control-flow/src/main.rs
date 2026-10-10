@@ -10,8 +10,8 @@
 // 6. match 基础模式匹配
 // 7. if let 简化 Option 处理
 //
-// 对应教程：D:\Obsidians\Myknows\原理\Rust\02-基础\05-control-flow.md
-// 运行方式：cargo run -p 07-control-flow
+// 对应教程：docs/notes/02-核心语法/05-控制流.md
+// 运行方式：cargo run -p control_flow_demo
 // ============================================================
 
 fn main() {
