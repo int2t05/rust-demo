@@ -12,14 +12,6 @@
 
 两种类型的选择与衔接:
 
-```mermaid
-flowchart TD
-  Q{"需要拥有或修改文本?"} -->|"是"| S["String:堆分配,可增长"]
-  Q -->|"否,只读"| R["&str:借用视图<br/>字面量也是 &str"]
-  S -->|"做函数参数"| P["参数类型写 &str<br/>&String 自动解引用适配"]
-  M["String::from / to_string"] -.->|"创建"| S
-```
-
 - UTF-8 是变长编码:ASCII 1 字节,汉字 3 字节;`len()` 返回字节数,字符数要用 `chars().count()`。
 - 索引被禁,切片必须落在字符边界上,否则 panic;按字符取前 n 个用 `chars().take(n).collect()`。
 - 拼接选型:就地追加用 `push_str`/`push`;`+` 会 move 走左操作数;多段拼接用 `format!`,不夺任何所有权。

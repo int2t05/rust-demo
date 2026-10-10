@@ -314,7 +314,7 @@ const entries: Record<string, TermEntry> = {
   'iterator adapter': {
     zh: '迭代器适配器',
     ipa: '/ˈaɪtəreɪtər ˈædæptər/',
-    def: 'map/filter 等惰性方法,由 collect 等消费端触发执行。',
+    def: 'map/filter 一类返回新迭代器的方法。',
   },
   panic: {
     zh: '不可恢复错误',
@@ -386,7 +386,7 @@ const entries: Record<string, TermEntry> = {
   'error propagation': {
     zh: '错误传播',
     ipa: '/ˈerər ˌprɒpəˈɡeɪʃn/',
-    def: '函数不处理错误,用 ? 运算符提前 return 交给上层调用方。',
+    def: '函数不处理错误,把失败编码进返回值交由上层接力处理。',
   },
   'question mark operator': {
     zh: '? 运算符',
@@ -509,7 +509,7 @@ const entries: Record<string, TermEntry> = {
   consumer: {
     zh: '消费器',
     ipa: '/kənˈsuːmər/',
-    def: '消耗迭代器并产出最终结果的方法(如 sum、collect、find),负责触发惰性链执行。',
+    def: '消耗迭代器并产出最终结果的方法,如 sum、collect、find。',
   },
   'Fn traits': {
     zh: 'Fn 系列 trait',
@@ -535,7 +535,7 @@ const entries: Record<string, TermEntry> = {
   RefCell: {
     zh: '运行时借用检查',
     ipa: '/rɪˈsel/',
-    def: '把借用规则检查推迟到运行时的容器,允许通过不可变引用修改数据。',
+    def: '单线程的内部可变容器:borrow 只读、borrow_mut 可写,冲突时 panic。',
   },
   'interior mutability': {
     zh: '内部可变性',
@@ -556,7 +556,7 @@ const entries: Record<string, TermEntry> = {
   mpsc: {
     zh: '多生产者单消费者',
     ipa: '/ˌem piː ɛs ˈsiː/',
-    def: 'multiple producer, single consumer;std::sync::mpsc 的通道模型,发送端可 clone 多份,接收端只有一个。',
+    def: '多生产者、单消费者的通道模型,即 std::sync::mpsc,发送端可 clone 多份,接收端只有一个。',
   },
   Mutex: {
     zh: '互斥锁',

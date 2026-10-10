@@ -27,9 +27,9 @@ cargo run -p guessing_game
 | 05 | `05-compound-types` | 复合类型（元组、数组） | `docs/notes/02-核心语法/03-复合类型.md` |
 | 06 | `06-functions` | 函数、表达式 vs 语句 | `docs/notes/02-核心语法/04-函数.md` |
 | 07 | `07-control-flow` | if/loop/while/for/match | `docs/notes/02-核心语法/05-控制流.md` |
-| 08 | `08-ownership` | 所有权与移动语义 | `03-所有权系统/01-所有权规则.md` |
-| 09 | `09-references` | 引用与借用 | `03-所有权系统/02-引用与借用.md` |
-| 10 | `10-slices` | 切片类型 | `03-所有权系统/03-切片类型.md` |
+| 08 | `08-ownership` | 所有权与移动语义 | `docs/notes/03-所有权系统/01-所有权规则.md` |
+| 09 | `09-references` | 引用与借用 | `docs/notes/03-所有权系统/02-引用与借用.md` |
+| 10 | `10-slices` | 切片类型 | `docs/notes/03-所有权系统/03-切片类型.md` |
 | 11 | `11-lifetimes` | 生命周期标注 | `docs/notes/07-泛型Trait生命周期/04-生命周期标注.md` |
 | 12 | `12-structs` | 结构体与方法 | `docs/notes/04-数据结构/01-结构体.md` |
 | 13 | `13-enums` | 枚举与 Option<T> | `docs/notes/04-数据结构/02-枚举与Option.md` |
@@ -59,10 +59,10 @@ rust-demo/
 ├── Cargo.toml          # workspace 根
 ├── README.md           # 本文件
 ├── .gitignore
-├── package.json        # wiki 文档站工具链(npm run docs:dev / docs:build)
+├── package.json        # wiki 文档站工具链（npm run docs:dev / docs:build）
 ├── .github/workflows/  # GH Pages 部署
-├── docs/               # VitePress wiki,notes/ 下每主题一个文件夹
-└── 01-hello/           # 每个子项目结构相同
+├── docs/               # VitePress wiki，notes/ 下每主题一个文件夹
+└── 01-hello/           # 子项目结构：Cargo.toml + src/main.rs（23/30/31 另含 src/lib.rs 与 tests/）
     ├── Cargo.toml
     └── src/main.rs
 ```

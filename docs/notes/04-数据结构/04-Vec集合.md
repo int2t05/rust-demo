@@ -12,19 +12,9 @@
 
 访问与遍历的写法选择:
 
-```mermaid
-flowchart TD
-  A["访问 Vec 元素"] --> B{"越界是 bug 还是正常输入?"}
-  B -->|"不该发生"| C["v[i] 索引<br/>越界 panic,尽早暴露问题"]
-  B -->|"可能越界"| D["v.get(i)<br/>返回 Option,None 分支安全处理"]
-  E["遍历写法"] --> F["&v 只读借用,循环后 v 仍可用"]
-  E --> G["&mut v 可改元素,需解引用 *x"]
-  E --> H["for x in v 消耗 Vec<br/>之后 v 不可用"]
-```
-
 - `capacity >= len`:len 追平 capacity 后再 push 会重新分配内存并整体搬迁;预知规模就用 `Vec::with_capacity` 一次到位。
 - Vec 元素类型必须一致;要存异构数据,用枚举包一层,让所有元素变成同一类型。
-- `map`/`filter` 是惰性适配器,`.collect()` 才触发执行,并由标注决定产物类型(`Vec<i32>` 等)。
+- `map`/`filter` 的惰性求值与触发时机,见 09-函数式特性的迭代器一文。
 
 ## 示例
 

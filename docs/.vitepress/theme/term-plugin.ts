@@ -19,12 +19,14 @@ const alts = Object.keys(terms)
   .join('|')
 const termRe = new RegExp(alts, 'gi')
 
-// 由匹配文本反查字典 key:先原样小写,再试去尾 s(复数回退)
+// 由匹配文本反查字典 key:小写不敏感查找(兼容 Option/Vec 等大写原词 key),再试去尾 s(复数回退)
+const lowerKeys = new Map(Object.keys(terms).map((k) => [k.toLowerCase(), k]))
 function resolveKey(text: string): string | undefined {
   const lower = text.toLowerCase()
-  if (terms[lower]) return lower
-  if (lower.endsWith('s') && terms[lower.slice(0, -1)]) return lower.slice(0, -1)
-  return undefined
+  const exact = lowerKeys.get(lower)
+  if (exact) return exact
+  const singular = lowerKeys.get(lower.replace(/s$/, ''))
+  return singular
 }
 
 // 把一段纯文本切成 text / html_inline 混合片段;纯文本部分保持 text 以正常转义

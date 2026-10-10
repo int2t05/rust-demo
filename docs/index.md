@@ -7,11 +7,8 @@ hero:
   tagline: 31 个主题 crate 的配套知识库 —— 术语随手查、图解规则、真实练习、源码对照
   actions:
     - theme: brand
-      text: 从所有权系统开始
-      link: /notes/03-所有权系统/
-    - theme: alt
-      text: GitHub 仓库
-      link: https://github.com/int2t05/rust-demo
+      text: 从入门基础开始
+      link: /notes/01-入门基础/
 
 features:
   - title: 术语悬浮弹窗

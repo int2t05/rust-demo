@@ -32,9 +32,9 @@ const entry = computed(() => terms[props.k])
 .term-pop {
   position: absolute;
   left: 50%;
-  bottom: calc(100% + 8px);
-  transform: translateX(-50%) translateY(4px);
-  z-index: 30;
+  top: calc(100% + 8px);
+  transform: translateX(-50%) translateY(-4px);
+  z-index: 100;
   width: max-content;
   max-width: 320px;
   padding: 10px 12px;
@@ -79,5 +79,12 @@ const entry = computed(() => terms[props.k])
 .term-def {
   display: block;
   color: var(--vp-c-text-2);
+}
+</style>
+
+<style>
+/* 含术语弹窗的表格放开横向滚动裁剪,否则弹窗被 overflow 裁掉 */
+.vp-doc table:has(.term-pop) {
+  overflow: visible;
 }
 </style>

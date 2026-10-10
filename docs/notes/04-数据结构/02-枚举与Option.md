@@ -84,7 +84,7 @@ crate:`13-enums/src/main.rs`,`cargo run -p enums_demo` 可运行。
 
 ## 避坑
 
-- `unwrap_or` / `map` 消耗 Option:同一个变量连用两次消耗型方法会报 move 错误;只想读就先 `as_ref()` 再操作。
+- 只想读 Option 内部值再操作:先 `as_ref()` 借用,避免被消耗型方法 move 走。
 - `let n = None;` 编译不过:None 不带类型信息,必须标注 `Option<i32>` 之类的具体类型。
 - `Option<i32>` 不能直接当 i32 参与运算——它是独立类型,先拆包再算。
 
