@@ -19,6 +19,7 @@ export default withMermaid(
     description: 'Rust 系统学习 wiki:31 个主题 crate 的配套知识库',
     base: '/rust-demo/',
     cleanUrls: true,
+    head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/rust-demo/favicon.svg' }]],
     markdown: {
       config(md) {
         md.use(termWrap)
